@@ -20,10 +20,13 @@ MAIL_PASSWORD=null
 MAIL_ENCRYPTION=null
 ```
 
+## Composer Dependencies
 I'm assuming you have <a href="http://php.net/">php</a> installed on your machine. If you don't, you'll need to install it. You'll need to run <a href="https://getcomposer.org/">composer</a> to install the project dependencies. Do so by accessing the project through the cmd and running `composer install`.
 
+## Site Hosting
 Once that's installed, you'll need to set your server to point to the /public folder. If you do not have a server on your machine, you can run `php artisan serve` and php will host your site (`http://localhost` is the url needed to accesss it).
 
+## Database
 If you're able to see the site, that's great!  At this point, all that's left is to migrate the database. To do so, access the project on the cmd, and run `php artisan migrate`.
 
 That's it :)
